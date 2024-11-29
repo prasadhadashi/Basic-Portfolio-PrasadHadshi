@@ -13,3 +13,4 @@ git remote add origin {Link of git reposotory get a link on code option}
 git push -u origin master 
 after refreash repo project will be uploaded but there is remote origin present on git remove that origin
 git remote remove origin
+
