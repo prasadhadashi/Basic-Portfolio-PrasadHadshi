@@ -536,3 +536,155 @@ section{
     }
 
 }
+/* Default styles are for larger screens (desktops/laptops) */
+
+/* Laptop Screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .home {
+        padding: 50px 5%;
+    }
+
+    .home-content h1 {
+        font-size: 48px;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about-img img {
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .container1 {
+        width: 90%;
+    }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 5%;
+        flex-direction: column;
+    }
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar a {
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 5%;
+    }
+
+    .home-content h1 {
+        font-size: 42px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-sci a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .about-img img {
+        max-width: 80%;
+    }
+
+    .container1 {
+        padding: 40px;
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile Screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 5%;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .home-sci a {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .about-img img {
+        max-width: 100%;
+    }
+
+    .container1 {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .bar {
+        font-size: 18px;
+    }
+
+    .btn-box {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .contact-list li {
+        font-size: 14px;
+    }
+
+    .contact-icons a {
+        font-size: 18px;
+        margin: 5px;
+    }
+}
+
